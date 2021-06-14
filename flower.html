@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+
+</head>
+<body>
+   <!-- div#wrap>header#header+nav#gnb+main#main+div#contents+footer#footer-->
+    <div id="outerwrap">
+
+       <div id="wrap">
+
+        <header id="header">
+            <img src="images/topbg.png" alt="top">
+        </header>
+
+        <nav id="gnb">
+           <!--ul#mainMenu>li.mainLi*4>a[href=#]-->
+            <ul id="mainMenu" class="flexContainer">
+                <li class="mainLi">
+                <a href="#">꽃다발</a>
+                </li>
+
+                <li class="mainLi">
+                <a href="#">꽃바구니</a>
+                </li>
+
+                <li class="mainLi">
+                <a href="#">화환</a>
+                </li>
+
+                <li class="mainLi">
+                <a href="#">화분</a>
+                </li>
+
+            </ul>
+
+
+        </nav>
+
+        <main id="main">
+         <!--div#showImg+div#greetingMsg-->
+           <main id="main" class="flexContainer"><!--이렇게 하면 오른쪽-->
+            <div id="showImg">
+            <img src="images/shop.png" alt="shop">
+            </div>
+
+            <div id="greetingMsg">
+            <h2>향기나는 꽃집입니다</h2>
+            <!--p>br*2-->
+            <p>향기나는 꽃집은 식물과 함께하는 건강한 삶,<br>꽃으로 전하는 사랑이야기,<br>그리고 꽃을 힐링하는 치유의 삶의 메신저가 되겠습니다.</p>
+            </div>
+
+        </main>
+        <div id="contents"></div>
+        <footer id="footer"></footer>
+    </div>
+
+    </div>
+</body>
+</html>
